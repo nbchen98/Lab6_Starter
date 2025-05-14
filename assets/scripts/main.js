@@ -88,9 +88,6 @@ function initFormHandler() {
 		const recipes = getRecipesFromStorage();
 		recipes.push(recipeObject);
 		saveRecipesToStorage(recipes);
-
-		// Clear the form
-		form.reset();
 	});
 
 	// B10. Get a reference to the "Clear Local Storage" button
